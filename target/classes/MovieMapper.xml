@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd"> 
+<mapper namespace="com.ifeng.douban.mapper.MovieMapper"> 
+
+<insert id="insertMovie">
+INSERT INTO movie 
+(title,info,url,viewer,rating,update_tm,tag)
+	VALUES(#{title},#{info},#{url},#{viewer},#{rating},now(),#{tag})
+</insert>
+
+<select id="findByUrl" parameterType="string" resultType="movie">
+    SELECT * FROM movie
+    WHERE url = #{url}
+</select>
+
+<update id="updateMovie">
+    UPDATE movie SET
+    title = #{title},
+    info = #{info},
+    viewer = #{viewer},
+    rating = #{rating},
+    update_tm = now(),
+    tag = #{tag}
+    WHERE url = #{url}
+</update>
+</mapper> 

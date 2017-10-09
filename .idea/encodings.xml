@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
+    <file url="file://$PROJECT_DIR$/script/query.sql" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/ifeng/douban/constant/TagConstant.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/ifeng/douban/db/DBUtil.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/ifeng/douban/handle/BookHandle.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/ifeng/douban/handle/FundHandle.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/ifeng/douban/handle/HousePriceHandle.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/ifeng/douban/handle/MovieHandle.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/ifeng/douban/mapper/BookMapper.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/ifeng/douban/mapper/MovieMapper.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/ifeng/douban/model/Book.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/ifeng/douban/model/Movie.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/ifeng/douban/model/fund/Fund.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/ifeng/douban/model/fund/FundCompany.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/ifeng/douban/model/fund/FundNet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/ifeng/douban/util/GetHtml.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/jlspider/fund/model/Fund.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/jlspider/fund/model/FundCompany.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/jlspider/fund/model/FundNet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/BookMapper.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/MovieMapper.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/log4j.properties" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/mybatis_config.xml" charset="UTF-8" />
+  </component>
+</project>
+
